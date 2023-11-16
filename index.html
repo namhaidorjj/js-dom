@@ -6,11 +6,30 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div id="task2">
-      <button id="addBtn">Шалгах</button>
-      <button id="addBtn">Шинэчлэх</button>
+  <body style="background-color: rgb(255, 255, 255)">
+    <div id="task1">
+      <button id="addBtn">ADD</button>
     </div>
     <script src="dom-easy-1.js"></script>
+    <div id="task2">
+      <label for="num1"></label>
+      <input type="text" id="num1" disabled />
+      <label for="num2"></label>
+      <input type="text" id="num2" disabled />
+      <label for="sum"></label>
+      <input type="text" id="sum" />
+      <button onclick="checkSum()">Шалгах</button>
+      <button onclick="updateNumbers()">Шинэчлэх</button>
+      <script src="dom-easy2.js"></script>
+    </div>
+    <div class="task-3">
+      <button id="change-color">touch me baby !</button>
+      <script src="dom-easy-3.js"></script>
+    </div>
+    <div class="task-4">
+      <h1 id="text">Hello world</h1>
+      <button onclick="changingTextArea()" id="changer">change massage</button>
+    </div>
+    <script src="dom-medium1.js"></script>
   </body>
 </html>

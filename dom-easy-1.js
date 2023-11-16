@@ -10,4 +10,3 @@ const btn = document.getElementById("addBtn");
     document.body.appendChild(box);
  }
  btn.addEventListener("click" , addBox)
- box
