@@ -3,4 +3,3 @@ let text = document.getElementById("text");
 function changingTextArea(){
     text.innerText = " YoooW WTF."
 }
-changingText.addeventlistenner("click", changingTextArea)
