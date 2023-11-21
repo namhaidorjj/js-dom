@@ -27,3 +27,21 @@
     height: 100px;
     background-color: green;
 }
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1px;
+}
+#searchInput {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.shape {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    transition: 0.5s;
+    background-color: green;
+  }
